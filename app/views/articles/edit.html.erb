@@ -1,4 +1,4 @@
-<h1>Create a new article</h1>
+<h1>Edit existing article</h1>
 
 <% if @article.errors.any? %>
 	<h2>The following error/s prevented article from getting created</h2>
@@ -27,4 +27,4 @@
 
 <% end %>
 
-<%= link_to 'Back', articles_path %>
+<%= link_to 'Back', articles_path %>  |  <%= link_to 'Show', article_path %>
