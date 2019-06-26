@@ -57,3 +57,26 @@ class ArticlesController < ApplicationController
 		params.require(:article).permit(:title, :description)
 	end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
