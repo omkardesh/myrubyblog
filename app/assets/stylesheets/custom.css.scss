@@ -18,8 +18,10 @@ $navbar-default-bg: black;/*#8B0E0E;*/
 
 .jumbotron {
 	background-image: asset-url('nature1.jpg');
-	background-size: cover;	
-	height: 350px;
+	background-repeat: no-repeat;
+	background-size: auto;	
+	background-position: center;
+	height: 423px;
 }
 
 .jumbotron {
