@@ -24,7 +24,8 @@ class CategoriesControllerTest < ActionDispatch::IntegrationTest
 
 	test "Should redirect create when admin logged in" do
 		assert_no_difference 'Category.count' do
-			post categories_path, params: {category: {name: "sports"}}
+			#post categories_path, params: {category: {name: "sports"}}
+			get new_category_path, params: {category: {name: "sports"}}
 		end
 		assert_redirected_to categories_path
 	end	
