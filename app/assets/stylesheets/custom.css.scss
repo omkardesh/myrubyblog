@@ -76,6 +76,22 @@ $navbar-default-bg: black;/*#8B0E0E;*/
 	margin-top: 15px;
 }
 
+.badge{
+	background-color: #CEF6F5;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+ }
+
+.badge:hover{
+ 	text-decoration: none;
+ }
+
+ .input_checkbox input{
+	width: auto !important;
+ }
+
+
 footer {
 	margin-top: 45px;
 	padding-top: 5px;
@@ -96,3 +112,5 @@ footer ul li{
 	float: left;
 	margin-left: 15px;
 }
+
+

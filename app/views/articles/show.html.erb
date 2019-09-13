@@ -15,9 +15,13 @@
 			</div>
 		</ul>
 	<% end %>
-	<h4 class="center description"><b>Description:</b></h4>
+	<h4 class="center  description"><b>Description:</b></h4>
 	<hr>
- 	<%= simple_format(@article.description) %></h2>
+ 	<%= simple_format(@article.description) %>
+ 	<hr>
+ 	<% if @article.categories.any? %>
+ 		<p> Categories: <%= render @article.categories %></p>
+ 	<% end %>
 </div>
 
 <div style="text-align: center;">
