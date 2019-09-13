@@ -24,6 +24,7 @@
 				<% if logged_in? && (current_user == x.user || current_user.admin?) %>
 					<div class="article-actions">
 						<%= link_to 'Edit The Article', edit_article_path(x), class: "btn btn-primary"  %> 
+						
 						<%= link_to 'Delete This Article', article_path(x), class: "btn btn-danger", 
 						method: :delete, 
 						data: {confirm: "Are you sure you want to delete this article?"}  %>
